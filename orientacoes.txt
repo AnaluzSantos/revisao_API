@@ -1,0 +1,48 @@
+npm init -y -> intalar o package.json
+npm install mysql2 -> instalar o banco de dados
+npm install express -> 
+npm install express-handlebars ->
+
+1º Passo: Criação da pasta src -> pasta que vai conter todo o projeto (pasta raiz do projeto)
+
+2º Passo: 
+Integração da API com o banco de dados
+db -> database (banco de dados)
+mysql -> banco relacional 
+
+host -> servidor local utilizado para rodar a API
+
+Sempre que for importar alguma coisa utiliza o require
+
+3º Passo:
+Criação da pasta server.js dentro da pasta src
+
+Não é comum utilizar front-end dentro do back-end, por isso se utiliza engenharias de template como o handlebars
+
+Sempre que trabalharmos com API utilizaremos rotas
+
+4º Passo: 
+Criação da pasta routers dentro da pasta src 
+E criação do arquivo productRouter.js dentro da pasta routers
+
+5º Passo:
+Criação da pasta controllers dentro da pasta src
+Criação do arquivo ProductController.js dentro da pasta controllers
+
+6º Passo: 
+Criação da pasta views
+Criação da pasta layouts e da pasta product dentro da pasta views
+Criaçãodo arquivo main.handlebars na pasta layouts
+Criação do arquivos home.handlebars e update.handlebars na pasta product
+
+7º Passo: 
+Criação da pasta public 
+Criação das pastas css e js dentro da pasta public
+Criação do arquivo style.css dentro da pasta css
+Criação do arquivo index.js dentro da pasta js
+
+8º Passo: 
+Ir no package.json na parte do script apagar o que tem dentro e colocar "start": "nodemon ./src/server.js"
+
+9º Passo: 
+Criar o banco de dados no mysql worckbench
